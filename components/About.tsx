@@ -18,7 +18,7 @@ export default function About({}: Props) {
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Here is a {" "} <span
                 className='underline decoration-[#F7AB0A]/50'>little</span>{" "}background</h4>
-            <p className='text-base'>My name is Hassan Hassouna, I'm 27 years old and I hold a B.Sc. in Information
+            <p className='text-base'>My name is Hassan Hassouna, I am 27 years old and I hold a B.Sc. in Information
                 Systems.
                 I a
                 freelance <span className='underline decoration-[#F7AB0A]/50'>Full Stack Developer</span>. During this

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <div
             className='bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-x-hidden overflow-y-scroll z-0'>
             <Head>
-                <title>Hassouna's Portfolio</title>
+                <title>Hassoun&apos;a Portfolio</title>
             </Head>
             <Header/>
             <section id='hero' className='snap-center'>

@@ -8,12 +8,12 @@ export default function About({}: Props) {
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 1.5}}
-        className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl mx-auto items-center px-10 justify-evenly'>
+        className='flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl mx-auto items-center  justify-evenly '>
         <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
         <Img initial={{x: -200, opacity: 0}} transition={{duration: 1.2}} whileInView={{x: 0, opacity: 1}}
              viewport={{once: true}}
              src='https://res.cloudinary.com/dieieuuby/image/upload/v1687095077/me_cmqyyx.jpg'
-             className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]'
+             className='-mb-32 md:mb-0 flex-shrink-0 w-446 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[30rem]'
         />
         <div className='space-y-10 px-0 md:px-10'>
             <h4 className='text-4xl font-semibold'>Here is a {" "} <span
@@ -29,9 +29,7 @@ export default function About({}: Props) {
                 user
                 interfaces. Throughout my journey, I am committed to continuous self-learning, independent
                 problem-solving,
-                and staying updated with the latest industry trends. I take pride in my ability to build applications
-                and
-                websites that drive business growth and provide exceptional user experiences. </p>
+                and staying updated with the latest industry trends. </p>
         </div>
     </Div>
 }
